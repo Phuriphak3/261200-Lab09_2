@@ -1,0 +1,7 @@
+package oop.lsp;
+
+//อินเทอร์เฟซสำหรับวัตถุที่บินได้สืบทอดจาก Moveable เพราะการบินคือการเคลื่อนที่รูปแบบหนึ่ง
+
+public interface Flyable extends Moveable {
+    void fly();
+}
